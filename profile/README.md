@@ -1,1 +1,1 @@
-# Magic as a Service
+# International Magic
