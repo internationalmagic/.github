@@ -5,24 +5,24 @@ body:
   - type: checkboxes
     id: title
     attributes:
-      label: Site title, meta title
+      label: Meta tags
+      description: Are all meta tags present and displaying the correct information in the server rendered source?
       options:
         - label: Site title, meta title
-          required: true
-  - type: checkboxes
-    id: description
-    attributes:
-      label: Meta description, OG description
-      options:
         - label: Meta description, OG description
-          required: true
+        - label: Meta thumbnail, OG image
+        - label: OG video
   - type: checkboxes
     id: favicon
     attributes:
       label: Favicon
+      description: Is the favicon available in all neccessary formats and are the neccessary meta tags present?
       options:
-        - label: Favicon
-          required: true
-        
-      
+        - label: favicon.svg
+        - label: favicon.ico
+        - label: apple-touch-icon-180x180.png
+        - label: manifest.webmanifest
+        - label: pwa-192x192.png
+        - label: pwa-512x512.png
+        - label: Meta tags added to the `<head>`
   
