@@ -16,7 +16,7 @@ body:
     id: favicon
     attributes:
       label: Favicon
-      description: Is the favicon available in all neccessary formats and are the neccessary meta tags present?
+      description: Is the favicon available in all necessary formats and are the neccessary meta tags present?
       options:
         - label: favicon.svg
         - label: favicon.ico
