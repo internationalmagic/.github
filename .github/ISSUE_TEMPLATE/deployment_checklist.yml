@@ -6,14 +6,23 @@ body:
     id: title
     attributes:
       label: Site title, meta title
+      options:
+        - label: Site title, meta title
+          required: true
   - type: checkboxes
     id: description
     attributes:
       label: Meta description, OG description
+      options:
+        - label: Meta description, OG description
+          required: true
   - type: checkboxes
     id: favicon
     attributes:
       label: Favicon
+      otions:
+        - label: Favicon
+          required: true
         
       
   
