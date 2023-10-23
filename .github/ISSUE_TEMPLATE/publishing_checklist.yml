@@ -1,5 +1,5 @@
-name: 🎯 Deployment Checklist
-description: Final checklist for project conclusions
+name: 🎯 Publishing Checklist
+description: Final checklist before publishing a website
 labels: []
 body:
   - type: checkboxes
