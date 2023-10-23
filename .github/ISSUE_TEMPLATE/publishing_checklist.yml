@@ -21,8 +21,8 @@ body:
         - label: favicon.svg
         - label: favicon.ico
         - label: apple-touch-icon-180x180.png
+        - label: icon-192x192.png
+        - label: icon-512x512.png
         - label: manifest.webmanifest
-        - label: pwa-192x192.png
-        - label: pwa-512x512.png
         - label: Meta tags added to the `<head>`
   
