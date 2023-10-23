@@ -1,0 +1,19 @@
+name: 🎯 Deployment Checklist
+description: Final checklist for project conclusions
+labels: []
+body:
+  - type: checkboxes
+    id: title
+    attributes:
+      label: Site title, meta title
+  - type: checkboxes
+    id: description
+    attributes:
+      label: Meta description, OG description
+  - type: checkboxes
+    id: favicon
+    attributes:
+      label: Favicon
+        
+      
+  
