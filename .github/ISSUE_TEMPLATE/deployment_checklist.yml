@@ -20,7 +20,7 @@ body:
     id: favicon
     attributes:
       label: Favicon
-      otions:
+      options:
         - label: Favicon
           required: true
         
