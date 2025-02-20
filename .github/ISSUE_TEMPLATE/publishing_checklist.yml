@@ -45,23 +45,23 @@ body:
   - type: checkboxes
     id: legal compliance
     attributes:
-    label: Legal Compliance
-    options:
+      label: Legal Compliance
+      options:
         - label: verify that the Terms and Conditions are up to date and accessible
         - label: ensure the Privacy Policy is compliant with current laws and regulations
  - type: checkboxes
    id: email service integration
    attributes:
-   label: Email Service Integration
-   options:
+     label: Email Service Integration
+     options:
        - label: check integration with mail.maas.earth for functionality:
        - label: test email sending capabilities
        - label: ensure bounce and complaint handling works correctly
 - type: checkboxes
   id: analytics integration
   attributes:
-  label: Analytics Integration
-  options:
+    label: Analytics Integration
+    options:
       - label: verify integration with stats.maas.earth
       - label: check if analytics tracking is operational
       - label: ensure data is being recorded accurately
@@ -81,22 +81,22 @@ body:
 - type: checkboxes
   id: seo and accessibility checks
   attributes:
-  label: SEO and Accessibility Checks
-  options:
+    label: SEO and Accessibility Checks
+    options:
       - label: run a full SEO audit to identify potential issues 
       - label: ensure the website is accessible, complying with WCAG guidelines
 - type: checkboxes
   id: social media and messaging apps sharing
   attributes:
-  label: Social Media and Messaging Apps Sharing
-  options:
+    label: Social Media and Messaging Apps Sharing
+    options:
       - label: share the website on messaging platforms like whatsApp to check how links are previewed
       - label: ensure social media share buttons on the website are functional and the pages look good when shared
 - type: checkboxes
   id: final pre-launch checklist
   attributes:
-  label: Final Pre-launch Checklist
-  options:
+    label: Final Pre-launch Checklist
+    options:
       - label: ensure all test accounts and data are purged
       - label: perform a final content review to catch any typos or placeholder text
       - label: conduct a browser and device compatibility test to ensure the site works seamlessly across different environments
