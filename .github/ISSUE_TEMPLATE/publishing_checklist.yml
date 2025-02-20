@@ -50,7 +50,7 @@ body:
         - label: Verify that the Terms and Conditions are up to date and accessible
         - label: Ensure the Privacy Policy is compliant with current laws and regulations
   - type: checkboxes
-    id: email service integration
+    id: email-service-integration
     attributes:
       label: Email Service Integration
       options:
