@@ -54,15 +54,15 @@ body:
     attributes:
       label: Email Service Integration
       options:
-        - label: Check integration with mail.maas.earth for functionality
-        - label: Test email sending capabilities
-        - label: Ensure bounce and complaint handling works correctly
+        - label: Check integration with [mail.maas.earth](https://mail.maas.earth)
+        - label: Send a test email
+        - label: Ensure bounce and complaint handling works
   - type: checkboxes
     id: analytics
     attributes:
       label: Analytics
       options:
-        - label: Verify integration with stats.maas.earth
+        - label: Verify integration with [stats.maas.earth](https://stats.maas.earth)
   - type: checkboxes
     id: uptime
     attributes:
@@ -75,7 +75,7 @@ body:
       label: XML and Sitemap Validation
       options:
         - label: Validate the XML structure for syntactical correctness
-        - label: Check the sitemap is complete and ensure is accessible via yourwebsite.com/sitemap.xml
+        - label: Check the sitemap is complete and accessible at `/sitemap.xml`
   - type: checkboxes
     id: seo-and-accessibility
     attributes:
@@ -88,7 +88,7 @@ body:
     attributes:
       label: Social Media Previews
       options:
-        - label: Check the website with Facebook’s debugger
+        - label: Check the website with [Facebook’s debugger](https://developers.facebook.com/tools/debug/)
         - label: Share the website on messaging platforms like WhatsApp to check how links are previewed
         - label: Ensure social media share buttons on the website are functional and the pages look good when shared
   - type: checkboxes
