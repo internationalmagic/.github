@@ -27,76 +27,75 @@ body:
         - label: Meta tags added to the `<head>`
   - type: checkboxes
     id: cloudflare
-    attributes: 
+    attributes:
       label: Cloudflare
       options:
-        - label: check DNS settings
-        - label: ensure that SSL/TLS settings are correctly configured
-        - label: verify caching levels and page rules
+        - label: Check DNS settings
+        - label: Ensure that SSL/TLS settings are correctly configured
+        - label: Verify caching levels and page rules
   - type: checkboxes
-    id: newsletter subscription flow
-    attributes: 
-      label: Newsletter Subscription Flow
+    id: newsletter
+    attributes:
+      label: Newsletter
       options:
-        - label: ensure confirmation emails are sent
-        - label: verify landing pages after subscription
-        - label: check the ease and functionality of unsubscribing
-        - label: confirm that unsubscribe requests are processed immediately
+        - label: Ensure confirmation emails are sent
+        - label: Verify landing pages after subscription
+        - label: Check unsubscribe functionality
+        - label: Confirm that unsubscribe requests are processed immediately
   - type: checkboxes
-    id: legal compliance
+    id: legal-compliance
     attributes:
       label: Legal Compliance
       options:
-        - label: verify that the Terms and Conditions are up to date and accessible
-        - label: ensure the Privacy Policy is compliant with current laws and regulations
- - type: checkboxes
-   id: email service integration
-   attributes:
-     label: Email Service Integration
-     options:
-       - label: check integration with mail.maas.earth for functionality:
-       - label: test email sending capabilities
-       - label: ensure bounce and complaint handling works correctly
-- type: checkboxes
-  id: analytics integration
-  attributes:
-    label: Analytics Integration
-    options:
-      - label: verify integration with stats.maas.earth
-      - label: check if analytics tracking is operational
-      - label: ensure data is being recorded accurately
-- type: checkboxes
-  id: uptime monitoring
-  attributes:
-    label: Uptime Monitoring
-    options:
-      - label: add the website to uptime.maas.earth to monitor:
- - type: checkboxes
-  id: xml and sitemap validation
-  attributes:
-    label: XML and Sitemap Validation
-    options:
-      - label: Validate the XML structure for syntactical correctness
-      - label: Check the sitemap is complete and ensure is accessible via yourwebsite.com/sitemap.xml
-- type: checkboxes
-  id: seo and accessibility checks
-  attributes:
-    label: SEO and Accessibility Checks
-    options:
-      - label: run a full SEO audit to identify potential issues 
-      - label: ensure the website is accessible, complying with WCAG guidelines
-- type: checkboxes
-  id: social media and messaging apps sharing
-  attributes:
-    label: Social Media and Messaging Apps Sharing
-    options:
-      - label: share the website on messaging platforms like whatsApp to check how links are previewed
-      - label: ensure social media share buttons on the website are functional and the pages look good when shared
-- type: checkboxes
-  id: final pre-launch checklist
-  attributes:
-    label: Final Pre-launch Checklist
-    options:
-      - label: ensure all test accounts and data are purged
-      - label: perform a final content review to catch any typos or placeholder text
-      - label: conduct a browser and device compatibility test to ensure the site works seamlessly across different environments
+        - label: Verify that the Terms and Conditions are up to date and accessible
+        - label: Ensure the Privacy Policy is compliant with current laws and regulations
+  - type: checkboxes
+    id: email service integration
+    attributes:
+      label: Email Service Integration
+      options:
+        - label: Check integration with mail.maas.earth for functionality
+        - label: Test email sending capabilities
+        - label: Ensure bounce and complaint handling works correctly
+  - type: checkboxes
+    id: analytics
+    attributes:
+      label: Analytics
+      options:
+        - label: Verify integration with stats.maas.earth
+  - type: checkboxes
+    id: uptime
+    attributes:
+      label: Uptime Monitoring
+      options:
+        - label: Add the website to uptime.maas.earth to monitor
+  - type: checkboxes
+    id: xml-and-sitemap-validation
+    attributes:
+      label: XML and Sitemap Validation
+      options:
+        - label: Validate the XML structure for syntactical correctness
+        - label: Check the sitemap is complete and ensure is accessible via yourwebsite.com/sitemap.xml
+  - type: checkboxes
+    id: seo-and-accessibility
+    attributes:
+      label: SEO and Accessibility
+      options:
+        - label: Run a full SEO audit to identify potential issues
+        - label: Ensure the website is accessible, complying with WCAG guidelines
+  - type: checkboxes
+    id: social-media
+    attributes:
+      label: Social Media Previews
+      options:
+        - label: Check the website with Facebook’s debugger
+        - label: Share the website on messaging platforms like WhatsApp to check how links are previewed
+        - label: Ensure social media share buttons on the website are functional and the pages look good when shared
+  - type: checkboxes
+    id: final-pre-launch-checklist
+    attributes:
+      label: Final Pre-launch Checklist
+      options:
+        - label: Ensure all test accounts and data are purged
+        - label: Perform a final content review to catch any typos or placeholder text
+        - label: Conduct a browser and device compatibility test to ensure the site works seamlessly across different environments
