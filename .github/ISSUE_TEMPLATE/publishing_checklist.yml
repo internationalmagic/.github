@@ -25,4 +25,11 @@ body:
         - label: icon-512x512.png
         - label: manifest.webmanifest
         - label: Meta tags added to the `<head>`
-  
+  - type: checkboxes
+    id: cloudflare
+    attributes: 
+      options:
+        - label: check dns settings
+        - label: ensure that ssl/tls settings are correctly configured
+        - label: verify caching levels and page rules
+     
