@@ -38,12 +38,10 @@ body:
     attributes: 
       label: Newsletter Subscription Flow
       options:
-        - label: test the opt-in process:
-          - label: ensure confirmation emails are sent
-          - label: verify landing pages after subscription
-        - label: test the opt-out process: 
-          -label: check the ease and functionality of unsubscribing
-          -label: confirm that unsubscribe requests are processed immediately
+        - label: ensure confirmation emails are sent
+        - label: verify landing pages after subscription
+        - label: check the ease and functionality of unsubscribing
+        - label: confirm that unsubscribe requests are processed immediately
   - type: checkboxes
     id: legal compliance
     attributes:
@@ -57,24 +55,22 @@ body:
    label: Email Service Integration
    options:
      - label: check integration with mail.maas.earth for functionality:
-       - label: test email sending capabilities
-       - label: ensure bounce and complaint handling works correctly
+     - label: test email sending capabilities
+     - label: ensure bounce and complaint handling works correctly
 - type: checkboxes
   id: analytics integration
   attributes:
   label: Analytics Integration
   options:
     - label: verify integration with stats.maas.earth
-      - label: check if analytics tracking is operational
-      - label: ensure data is being recorded accurately
+    - label: check if analytics tracking is operational
+    - label: ensure data is being recorded accurately
 - type: checkboxes
   id: uptime monitoring
   attributes:
   label: Uptime Monitoring
   options:
     - label: add the website to uptime.maas.earth to monitor:
-      - label: website availability
-      - label: performance metrics  
  - type: checkboxes
   id: xml and sitemap validation
   attributes:
